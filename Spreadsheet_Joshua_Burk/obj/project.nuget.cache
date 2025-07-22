@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "vl7dOSsVsdo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joshu\\OneDrive\\Desktop\\cpts321-hws\\empty solution\\Spreadsheet_Joshua_Burk\\Spreadsheet_Joshua_Burk.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joshu\\.nuget\\packages\\nunit\\4.1.0\\nunit.4.1.0.nupkg.sha512",
+    "C:\\Users\\joshu\\.nuget\\packages\\nunit.analyzers\\4.1.0\\nunit.analyzers.4.1.0.nupkg.sha512",
+    "C:\\Users\\joshu\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
+    "C:\\Users\\joshu\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}

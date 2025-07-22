@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<spreadsheet>
+  <cell name="A1">
+    <text>sdf</text>
+  </cell>
+  <cell name="B1">
+    <bgcolor>FF00FF00</bgcolor>
+    <text>7</text>
+  </cell>
+  <cell name="A2">
+    <text>1</text>
+  </cell>
+  <cell name="B2">
+    <text>=B1</text>
+  </cell>
+</spreadsheet>

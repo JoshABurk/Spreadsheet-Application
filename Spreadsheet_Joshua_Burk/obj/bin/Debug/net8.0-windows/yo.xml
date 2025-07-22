@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<spreadsheet>
+  <cell name="A1">
+    <text>1</text>
+  </cell>
+  <cell name="B1">
+    <text>2</text>
+  </cell>
+  <cell name="A2">
+    <text>3</text>
+  </cell>
+  <cell name="B2">
+    <text>4</text>
+  </cell>
+  <cell name="A3">
+    <text>5</text>
+  </cell>
+  <cell name="B3">
+    <text>6</text>
+  </cell>
+  <cell name="B4">
+    <bgcolor>FF8080FF</bgcolor>
+  </cell>
+</spreadsheet>

@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Spreadsheet_Joshua_Burk</name>
+    </assembly>
+    <members>
+        <member name="T:Spreadsheet_Joshua_Burk.Form1">
+            <summary>
+            The Main class for the WinForm.
+            </summary>
+            <summary>
+             The Class for the WinForm Form1.
+            </summary>
+        </member>
+        <member name="F:Spreadsheet_Joshua_Burk.Form1.spreadsheet">
+            <summary>
+            The spreadsheet instance.
+            </summary>
+        </member>
+        <member name="M:Spreadsheet_Joshua_Burk.Form1.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Spreadsheet_Joshua_Burk.Form1"/> class.
+            Constructor for Form1. initializes datagrid, creates the spreadsheet, and subsribes to change events.
+            </summary>
+        </member>
+        <member name="M:Spreadsheet_Joshua_Burk.Form1.Spreadsheet_CellPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Event Handler anytime a cell's text is changed.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">A PropertyChangedEventArgs that contains the event data.</param>
+        </member>
+        <member name="M:Spreadsheet_Joshua_Burk.Form1.DataGridView1_CellBeginEdit(System.Object,System.Windows.Forms.DataGridViewCellCancelEventArgs)">
+            <summary>
+            Handles when a cell in beginning to be editted.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">A PropertyChangedEventArgs that contains the event data.</param>
+        </member>
+        <member name="M:Spreadsheet_Joshua_Burk.Form1.DataGridView1_CellEndEdit(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+            <summary>
+            Handles the event when a cell finishes editing.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">A PropertyChangedEventArgs that contains the event data.</param>
+        </member>
+        <member name="M:Spreadsheet_Joshua_Burk.Form1.ChangeBgColorToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the event when the edit background color menu is clicked.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">A PropertyChangedEventArgs that contains the event data.</param>
+        </member>
+        <member name="M:Spreadsheet_Joshua_Burk.Form1.UndoTextChangeToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the event when the Undo menu button is clicked.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">A PropertyChangedEventArgs that contains the event data.</param>
+        </member>
+        <member name="M:Spreadsheet_Joshua_Burk.Form1.RedoTextChangeToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the event when the Redo menu button is clicked.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">A PropertyChangedEventArgs that contains the event data.</param>
+        </member>
+        <member name="M:Spreadsheet_Joshua_Burk.Form1.Form1_Load(System.Object,System.EventArgs)">
+            <summary>
+            Loads the Form.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">A PropertyChangedEventArgs that contains the event data.</param>
+        </member>
+        <member name="M:Spreadsheet_Joshua_Burk.Form1.SaveMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Saves the Spreadsheet to an Xml File .
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">A PropertyChangedEventArgs that contains the event data.</param>
+        </member>
+        <member name="M:Spreadsheet_Joshua_Burk.Form1.LoadMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Loads the Xml file chosen.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">A PropertyChangedEventArgs that contains the event data.</param>
+        </member>
+        <member name="F:Spreadsheet_Joshua_Burk.Form1.components">
+            <summary>
+             Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Spreadsheet_Joshua_Burk.Form1.Dispose(System.Boolean)">
+            <summary>
+             Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Spreadsheet_Joshua_Burk.Form1.InitializeComponent">
+            <summary>
+             Required method for Designer support - do not modify
+             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Spreadsheet_Joshua_Burk.Form1.InitializeDataGrid">
+            <summary>
+             Initializes the dataGridView1 to have columns A-Z and 50 rows
+            </summary>
+        </member>
+        <member name="T:Spreadsheet_Joshua_Burk.Program">
+            <summary>
+             The Class that houses Main.
+            </summary>
+        </member>
+        <member name="M:Spreadsheet_Joshua_Burk.Program.Main">
+            <summary>
+             The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:Spreadsheet_Joshua_Burk.ApplicationConfiguration">
+            <summary>
+             Bootstrap the application configuration.
+            </summary>
+        </member>
+        <member name="M:Spreadsheet_Joshua_Burk.ApplicationConfiguration.Initialize">
+            <summary>
+             Bootstrap the application as follows:
+             <code>
+             global::System.Windows.Forms.Application.EnableVisualStyles();
+             global::System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
+             global::System.Windows.Forms.Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            </code>
+            </summary>
+        </member>
+    </members>
+</doc>
